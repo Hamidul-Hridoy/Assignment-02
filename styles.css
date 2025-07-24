@@ -8,7 +8,8 @@
     "wdth" 100;
 }
 
-.open-sans-noto {
+
+.open-sans-noto{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
@@ -34,9 +35,11 @@ body{
 }
 .txt5{
     font-size: 3.125rem;
+    font-weight: bold;
 }
 .txt6{
     font-size: 4.0625rem;
+    font-weight: 750;
 }
 .width{
     max-width: 1140px;
@@ -127,4 +130,105 @@ header section h1{
     font-size: 1rem;
     margin-top: 30px;
 }
-
+#bage{
+    max-width: 286px;
+    height: 286px;
+    margin-bottom:-270px;
+    margin-left: 347px;
+    margin-right:507px;
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 210px;
+}
+.section3 div ul{
+    color: #00000077;
+}
+.section4{
+    position: relative;
+}
+.icon{
+    bottom: -100px;
+    z-index: 5;
+}
+.section5{
+    margin-bottom: 134px;
+}
+.div1{
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    background-image: url('./assets/deal-bloom.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.img1{
+    text-align: center;
+    padding: 65px 48px 50px 48px;
+}
+.img1 h3{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.img1 a{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.div2{
+    width: 367px;
+    height: 201px;
+    border-radius: 14px;
+    background-image: url('./assets/deal-ana.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    
+}
+.img2{
+    text-align: center;
+    padding: 65px 48px 50px 48px;
+}
+.img2 h3{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #FFFFFF;
+}
+.img2 a{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.div3{
+    width: 753px;
+    height: 423px;
+    border-radius: 22px;
+    background-image: url('./assets/deal-zabo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section6{
+    display: flex;
+    gap: 28px;
+    margin-top: 120px;
+}
+.div3 div h2{
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+.div3 div a{
+    font-weight: 600;
+    font-size: 1.75rem;
+    color: #FFFFFF;
+}
+.img3{
+    text-align: center;
+    padding: 160px 140px 160px 115px;
+}
