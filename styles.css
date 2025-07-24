@@ -87,15 +87,44 @@ header section h1{
     margin-bottom: 0;
     font-weight: bold;
 }
-main section{
+.section1{
     text-align: center;
 }
-main section h2{
+.section1 h2{
     font-weight: bold;
     margin-bottom: 0px;
 }
-main section p{
+.section1 p{
     margin-top: 16px;
     color: #00000077;
+    font-weight: 500;
+} 
+.section2{
+    display:grid;
+    grid-template-columns:repeat(4 , 1fr);
+    gap: 30PX;
+}
+.section2 div{
+    text-align: center;
+
+}
+.section2 div p{
+    color: #111111;
+    
+}
+.section2 div h3{
+    font-weight: 700;
+    margin-top: 20px;
+
+}
+.btn1{
+    width: 270px;
+    border: none;
+    height: 50px;
+    background-color: #E95A08;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-top: 30px;
 }
 
